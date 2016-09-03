@@ -2,7 +2,7 @@
   "name": "nick",
   "version": "0.0.0",
   "private": true,
-  "author": "dumitru.cirimpei@emag.ro",
+  "author": "Dumitru Cirimpei <dumitru.cirimpei@emag.ro>",
   "description": "A simple helpful robot for your Company",
   "dependencies": {
     "hubot": "^2.19.0",
