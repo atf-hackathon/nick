@@ -1,6 +1,6 @@
 {
-  "name": "nick",
-  "version": "0.0.0",
+  "name": "nick-habot",
+  "version": "0.1.0",
   "private": true,
   "author": "Dumitru Cirimpei <dumitru.cirimpei@emag.ro>",
   "description": "A simple helpful robot for your Company",
