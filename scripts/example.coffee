@@ -9,7 +9,7 @@
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
 module.exports = (robot) ->
-
+#(
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
@@ -20,8 +20,9 @@ module.exports = (robot) ->
   #   else
   #     res.reply "Opening #{doorType} doors"
   #
-  # robot.hear /I like pie/i, (res) ->
-  #   res.emote "makes a freshly baked pie"
+ #robot.hear /I want to run a test/i, (res) ->
+#  res.emote "makes a freshly baked pie" ->
+  #res.send "you can use run command "
   #
   # lulz = ['lol', 'rofl', 'lmao']
   #
@@ -104,3 +105,15 @@ module.exports = (robot) ->
   # robot.respond /sleep it off/i, (res) ->
   #   robot.brain.set 'totalSodas', 0
   #   res.reply 'zzzzz'
+
+
+#robot.listen(
+ #   (message) -> # Match function
+  #    # Occassionally respond to things that Steve says
+   #   message.user.name is "Ionut" and Math.random() > 0.8
+    #(response) -> # Standard listener callback
+     # # Let Steve know how happy you are that he exists
+      #response.reply "Ionut! YOU'RE MY BEST FRIEND! (but only like #{response.match * 100}% of the time)"
+#  )
+#)
+
